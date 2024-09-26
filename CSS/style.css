@@ -1,0 +1,37 @@
+/* Start Counter Section */
+.count{
+    margin-left: 330px;
+    padding-top: 40px;
+    width: 700px;
+    height: 200px;
+    background-color: beige;
+    text-align: center;
+}
+
+.count a{
+    font-size: 60px;
+}
+
+.count span{
+    font-size: 50px;
+}
+/* End Counter Section */
+
+hr{
+    width: 700px;
+    border-width: 10px;
+}
+
+/* Start currency Section */
+.currency{
+    width: 700px;
+    height: 300px;
+    background-color: beige;
+}
+
+.convert {
+    margin-left: 10px;
+    width: 100%;
+    padding-top: 75px;
+}
+/* End currency Section */

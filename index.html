@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <!-- Start Counter Section -->
+    <div class="count">
+        <h3>Count</h3>
+        <a class="btn btn-link" onclick="plus()">+</a>
+        <span id="demo">0</span>
+        <a class="btn btn-link" onclick="minus()">-</a>
+    </div>
+    <!-- End Counter Section -->
+
+    <hr>
+    
+<!-- Start currency Section -->
+<div class="container mt-3 pt-4 currency">
+    <div class="row convert">
+        <div class="col-md-10 m-auto">
+            <h3 class="text-center">Convert Currency</h3>
+            <form action="about.html" method="post" onsubmit="return convDollar()">
+                <input type="text" name="dollar" id="dollar" class="form-control my-3"
+                placeholder="Enter The Mount Of $ Here">
+                <input type="submit" class="btn btn-success btn-block" value="Convert">
+                </form>
+                <h4 id="result" class="mt-1 text-center"></h4>
+            </div>
+        </div>
+    </div>
+    <!-- End currency Section -->
+
+
+    <script src="JS/jquery.slim.min.js"></script>
+    <script src="JS/popper.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
